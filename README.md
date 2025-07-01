@@ -71,3 +71,7 @@ Room Update:
 Print Functions:
   - `printAll()` displays all rooms and bookings (latest first)
   - `printAllUsers()` displays all users (latest first)
+```
+## Bonus Questions
+### Question 1: Suppose we put all the functions inside the same service. Is this the recommended approach ?
+### Answer : No, It is not recommended, first of all it violates the first letter of the SOLID principles, which is the Single Responsibilty Principle, also to maintain the project's scaliblity and also make the structure of the project easy to read and update.
